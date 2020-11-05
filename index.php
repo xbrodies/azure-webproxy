@@ -14,4 +14,5 @@ curl_close($ch);
 header('Content-Type: ' . $type);
 header("Cache-control: public");
 header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24) . " GMT");
+
 echo $output;
