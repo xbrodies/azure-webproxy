@@ -1,7 +1,7 @@
 <?php
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://casinotop2021.com" . $_SERVER['REQUEST_URI']);
+curl_setopt($ch, CURLOPT_URL, "https://example.com" . $_SERVER['REQUEST_URI']);
 
 //return the transfer as a string
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
